@@ -1,6 +1,4 @@
 # Pmik
-# main
-i'm a rich bitch
+# hello subscribers
 hello world
 translate grandmother around road
-
