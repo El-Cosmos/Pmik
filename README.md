@@ -1,5 +1,5 @@
 # Pmik
 # hello subscribers
-i'm a rich beatch
+i'm a rich beach
 hello world
 translate grandmother around road
