@@ -1,7 +1,9 @@
-dictionary = {'A': 1, 'B': 2, 'C': 3}
-key, value = 'D', 4
- 
-dictionary[key] = value
-print(dictionary)        # {'A': 1, 'B': 2, 'C': 3, 'D': 4}
+import openpyxl
 
-print (dictionary["B"])
+wb = openpyxl.reader.excel.load_workbook(filename="Shet.xlsx", data_only=True)
+#print(wb.sheetnames)
+wb.active = 1
+sheet = wb.active
+
+sheet['A2'] = "Мексика"
+sheet['B2'] = 133862892
