@@ -33,9 +33,17 @@ print(contry.values())
 
 sorting.bubbleSort(x)
 
+
+
 sorting_people = {}
-#print(sorting_people)
-#print("\n")
+
+for i in range(len(x)):
+    key, value = x[i], people[x[i]]
+    sorting_people[key] = value
+
+
+print("Это сортированный словарь:", sorting_people)
+print("\n")
 
 #sorting_people.update(people.values(x[0]))
 #print(sorting_people)
