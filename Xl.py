@@ -51,12 +51,5 @@ print("\n")
 #for i in range(len(x)):
    # print(x[i],":", people.pop(x[i]))
 
-
-
-#df = pd.DataFrame({'Страна': ['Manchester City', 'Real Madrid', 'Liverpool',
-          #                  'FC Bayern München', 'FC Barcelona', 'Juventus'],
-           #        'Население': ['English Premier League (1)', 'Spain Primera Division (1)',
-            #                  'English Premier League (1)', 'German 1. Bundesliga (1)',
-             #                 'Spain Primera Division (1)', 'Italian Serie A (1)']})
-
-#df.to_excel('./Shet1.xlsx', sheet_name='Sorted', index=False)
+df = pd.DataFrame(sorting_people)
+df.to_excel('./Shet2.xlsx', sheet_name='Sorted', index=False)
