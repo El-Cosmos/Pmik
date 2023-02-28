@@ -1,6 +1,5 @@
 import read_write_file
 import sorting
-import infografica1
 
 data = read_write_file.read_numbers("numbers.txt")
 
